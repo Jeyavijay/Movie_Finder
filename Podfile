@@ -7,5 +7,7 @@ target 'MovieFinder' do
 
   # Pods for MovieFinder
 pod 'AFNetworking'
+pod 'IQKeyboardManagerSwift'
+
 
 end
