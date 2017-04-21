@@ -62,6 +62,9 @@ class MovieListViewController: UIViewController ,UICollectionViewDelegate,UIColl
                         cell.imageViewPosterImage.image = UIImage(data: data)
                     }
                 }
+            }else
+            {
+                cell.imageViewPosterImage.image = imageFiles().noImage
             }
         }
 

@@ -79,6 +79,10 @@ class SingleMovieViewController: UIViewController {
 
                                 }
                             }
+                        }else
+                        {
+                            self.imageViewPoster.image = imageFiles().noImage
+                            self.activityIndicator.isHidden = true
                         }
                     }
 

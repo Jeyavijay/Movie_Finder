@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		434A5AA3F3D5CB11B08A9943 /* Pods_MovieFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1034DC2ACDCC72745C670BA6 /* Pods_MovieFinder.framework */; };
+		F264D8E51EAA8C55004DF6AF /* imageFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F264D8E41EAA8C55004DF6AF /* imageFiles.swift */; };
 		F2D4D7501EA7BD560051105F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4D74F1EA7BD560051105F /* AppDelegate.swift */; };
 		F2D4D7521EA7BD560051105F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4D7511EA7BD560051105F /* ViewController.swift */; };
 		F2D4D7551EA7BD560051105F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D4D7531EA7BD560051105F /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		1034DC2ACDCC72745C670BA6 /* Pods_MovieFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C83BBE5B018BB18725EE9A2 /* Pods-MovieFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		A54A4334E1037882ACB8B5BE /* Pods-MovieFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieFinder/Pods-MovieFinder.release.xcconfig"; sourceTree = "<group>"; };
+		F264D8E41EAA8C55004DF6AF /* imageFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageFiles.swift; sourceTree = "<group>"; };
 		F2D4D74C1EA7BD560051105F /* MovieFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D4D74F1EA7BD560051105F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2D4D7511EA7BD560051105F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				F2D4D7621EA7BE8B0051105F /* UIColorExtensions.swift */,
+				F264D8E41EAA8C55004DF6AF /* imageFiles.swift */,
 			);
 			name = HelperClasses;
 			sourceTree = "<group>";
@@ -156,7 +159,7 @@
 				TargetAttributes = {
 					F2D4D74B1EA7BD560051105F = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = QGE738B369;
+						DevelopmentTeam = EQ66433AJ7;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -252,6 +255,7 @@
 				F2D4D7631EA7BE8B0051105F /* UIColorExtensions.swift in Sources */,
 				F2D4D7521EA7BD560051105F /* ViewController.swift in Sources */,
 				F2D4D7501EA7BD560051105F /* AppDelegate.swift in Sources */,
+				F264D8E51EAA8C55004DF6AF /* imageFiles.swift in Sources */,
 				F2D4D7691EA7D32C0051105F /* MovieListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,10 +381,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = QGE738B369;
+				DEVELOPMENT_TEAM = EQ66433AJ7;
 				INFOPLIST_FILE = MovieFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeyavijay.MovieFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluggdd.MovieFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MovieFinder-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -394,10 +398,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = QGE738B369;
+				DEVELOPMENT_TEAM = EQ66433AJ7;
 				INFOPLIST_FILE = MovieFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jeyavijay.MovieFinder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pluggdd.MovieFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MovieFinder-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
